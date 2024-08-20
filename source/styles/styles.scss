@@ -1,11 +1,13 @@
 /* GLOBAL */
 @import "./common/variables.scss";
 @import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
 @import "./common/visually-hidden.scss";
 
 /* BLOCKS */
 /* BLOCK INDEX */
+@import "./blocks/button.scss";
 @import "./blocks/page.scss";
 @import "./blocks/header.scss";
 @import "./blocks/nav.scss";
@@ -48,7 +50,6 @@
 @import "./blocks/card-all.scss";
 @import "./blocks/more-catalog.scss";
 @import "./blocks/more-catalog__wrapper.scss";
-@import "./blocks/more-catalog__list.scss";
 @import "./blocks/more-card.scss";
 @import "./blocks/promotion.scss";
 @import "./blocks/promotion__present.scss";

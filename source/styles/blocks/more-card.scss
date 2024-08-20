@@ -1,24 +1,21 @@
-.more-card {
-
-}
-
-
 .more-card__title {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #222222;
 }
 
 .more-card__item {
-
+  line-height: 14px;
 }
 
 .more-card__amount {
-
+  text-align: left;
 }
 
 .more-card__price {
-
+  text-align: right;
 }
 
-.more-card__button {
-
-}
