@@ -9,6 +9,10 @@
   height: 66px;
 }
 
+@media (min-width: $tablet-width) {
+
+}
+
 .header__image:hover {
   opacity: 80%;
 }
