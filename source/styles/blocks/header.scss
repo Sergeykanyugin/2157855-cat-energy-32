@@ -1,6 +1,12 @@
 .header {
+  display: flex;
+  flex-direction: row;
   background-color: #ffffff;
   color: #000000;
+}
+
+.header__logo {
+  height: 66px;
 }
 
 .header__image:hover {
