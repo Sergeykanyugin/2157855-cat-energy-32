@@ -9,10 +9,6 @@
   height: 66px;
 }
 
-@media (min-width: $tablet-width) {
-
-}
-
 .header__image:hover {
   opacity: 80%;
 }
@@ -27,4 +23,12 @@
 
 .header__logo-text:active {
   opacity: 60%;
+}
+
+@media (min-width: $tablet-width) {
+  .header__logo {
+    height: 100px;
+  }
+  
+  
 }
