@@ -32,3 +32,11 @@
   
   
 }
+
+@media (min-width: $desktop-width) {
+  .header__logo {
+    height: 114px;
+  }
+  
+  
+}
