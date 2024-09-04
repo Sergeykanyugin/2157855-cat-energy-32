@@ -1,9 +1,11 @@
 .header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #ffffff;
   color: #000000;
   margin: 0;
-  padding: 0;
+  padding: 10px 0 14px 0; 
   list-style: none;
 }
 
