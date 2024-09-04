@@ -1,8 +1,10 @@
 .header {
   display: flex;
-  flex-direction: row;
   background-color: #ffffff;
   color: #000000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .header__logo {
@@ -26,6 +28,7 @@
 }
 
 @media (min-width: $tablet-width) {
+  
   .header__logo {
     height: 100px;
   }
