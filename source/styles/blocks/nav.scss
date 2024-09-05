@@ -36,11 +36,17 @@
 
   .nav__list {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 437px
   }
 }
 
 @media (min-width: $desktop-width) {
-
-
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 473px;
+  }
 }

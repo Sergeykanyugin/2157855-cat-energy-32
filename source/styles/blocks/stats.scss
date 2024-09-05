@@ -1,5 +1,6 @@
 .stats {
   background-color: #eaeaea;
+  padding-top: 25px;
 }
 
 .stats__title {
@@ -8,6 +9,8 @@
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 .stats__example {
@@ -19,9 +22,10 @@
 }
 
 .stats__description {
-  font-size: 12px;
-  line-height: 12px;
-  text-align: center;
+  display: block;
+  margin: 40px auto 0 ;  
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .stats__cost {
