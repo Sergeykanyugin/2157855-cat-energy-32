@@ -10,7 +10,7 @@
 }
 
 .header__logo {
-  height: 66px;
+  height: 38px;
 }
 
 .header__image:hover {
@@ -19,6 +19,13 @@
 
 .header__image:active {
   opacity: 60%;
+}
+
+
+.header__logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__logo-text:hover {
