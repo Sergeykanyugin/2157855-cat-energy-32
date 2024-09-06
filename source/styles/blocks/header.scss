@@ -1,16 +1,26 @@
 .header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   background-color: #ffffff;
   color: #000000;
   margin: 0;
-  padding: 10px 0 14px 0; 
+  padding: 10px 0 14px;
   list-style: none;
 }
 
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__logo {
+  width: 33px;
   height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__image:hover {
@@ -36,8 +46,22 @@
   opacity: 60%;
 }
 
+.header__toggle {
+  background-image: url("../../icons/stack.svg#logo-menu");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
 @media (min-width: $tablet-width) {
-  
+  .header__toggle {
+    position: relative;
+    display: none;
+  }
+
   .header__logo {
     height: 100px;
   }
@@ -46,8 +70,6 @@
     margin-right: auto;
     margin-left: 13px;
   }
-  
-  
 }
 
 @media (min-width: $desktop-width) {
@@ -60,5 +82,9 @@
     margin-right: auto;
     margin-left: 14px;
   }
-  
+
+  .header__toggle {
+    position: relative;
+    display: none;
+  }
 }
