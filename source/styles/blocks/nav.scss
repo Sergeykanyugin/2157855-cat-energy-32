@@ -4,6 +4,13 @@
   align-items: center;
 }
 
+.nav__item {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
 .nav__toggle {
   background-image: url("../../icons/stack.svg#logo-menu");
   background-repeat: no-repeat;
