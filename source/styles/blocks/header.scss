@@ -13,6 +13,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .header__logo {
@@ -57,16 +59,24 @@
 }
 
 @media (min-width: $tablet-width) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
   .header__toggle {
-    position: relative;
     display: none;
   }
 
   .header__logo {
     height: 100px;
+    width: 60px;
   }
 
   .header__logo-text {
+    width: 101px;
     margin-right: auto;
     margin-left: 13px;
   }

@@ -1,10 +1,12 @@
 .program {
   background-color: $color-basic-green;
-  background-repeat: no-repeat;
-  background-position: contain;
   margin-left: -20px;
   margin-right: -20px;
-  padding-top: 27px;
+  @media (min-width: $tablet-width) {
+    background-color: #ffffff;
+    padding-top: 65px;
+    margin: 0;
+  }
 }
 
 // @media (min-width: $tablet-width) {
@@ -21,6 +23,15 @@
   line-height: 36px;
   text-align: center;
   color: #ffffff;
+  width: 250px;
+   @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    text-align: start;
+    width: 416px;
+    margin-left: 90px;
+  }
 }
 
 .program__slogan {
@@ -31,8 +42,37 @@
   line-height: 14px;
   text-align: center;
   color: #ffffff;
+  @media (min-width: $tablet-width) {
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-left: 90px;
+    text-align: start;
+  }
 }
 
 .program__image {
-  margin: 29 20 0;
+  margin-top: 29px;
+  padding: 0;
+  @media (min-width: $tablet-width) {
+    margin-top: 21px;
+  }
+}
+
+.program__button {
+  width: 280px;
+  padding: 10px 0;
+  margin: 3px 0 0; 
+  color: #ffffff;
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 400px;
+    left: 120px; 
+    font-size: 20px;
+    line-height: 26px;
+    padding: 14px 0;
+    width: 244px;
+    margin: 0;
+  }
 }
