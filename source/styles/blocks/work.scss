@@ -42,7 +42,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    flex-direction: row;
+    flex-flow: row nowrap;
     gap: 37px 80px;
   }
 }
