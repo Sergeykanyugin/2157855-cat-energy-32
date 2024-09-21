@@ -7,22 +7,21 @@
   width: 320px;
 
   @media (min-width: $tablet-width) {
+    background: linear-gradient(to bottom, #ffffff 579px, #eaeaea 579px);
     grid-template-columns: 1fr 708px 1fr;
     padding: 45px 0 101px;
     border-top: 1px solid #e6e6e6;
     width: 708px;
-    background-color: linear-gradient(to bottom, #ffffff 579px, #eaeaea 579px);
   }
 
   @media (min-width: $desktop-width) {
     grid-template-columns: 1fr 433px 767px 1fr;
     grid-template-rows: repeat(3, auto);
-    background: #f2f2f2;
     border-top: none;
     padding-top: 0;
     padding-bottom: 50px;
     width: 1440px;
-    background-color: linear-gradient(to bottom, #ffffff  136px, #f2f2f2 136px);
+    background: linear-gradient(to bottom, #ffffff  136px, #f2f2f2 136px);
   }
 }
 

@@ -17,9 +17,9 @@
 
 .footer__address {
   display: flex;
-  padding: 26px 20px;
+  padding: 26px 0;
   margin: auto;
-  width: 320px;
+  width: 280px;
 
   @media (min-width: $tablet-width) {
     justify-content: space-between;
@@ -36,6 +36,12 @@
     margin-left: 110px;
   }
 }
+
+.footer-catalog .footer__address {
+  @media (max-width: $tablet-width-max) {
+    background-color: #f2f2f2;
+  } 
+} 
 
 .address__text {
   margin: 0;
