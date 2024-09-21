@@ -2,6 +2,7 @@
   background-color: #ffffff;
   width: 320px;
   margin: auto;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -29,7 +30,7 @@
 }
 
 .header__wrapper::before {
-  @media (min-width: $desktop-width) and (max-width: 1600px) {
+  @media (min-width: $desktop-width) {
     content: "";
     position: absolute;
     z-index: -1;

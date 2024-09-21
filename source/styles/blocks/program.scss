@@ -1,4 +1,5 @@
 .program {
+  position: relative;
   @media (max-width: 767px) {
     width: 320px;
     margin: auto;
@@ -13,15 +14,12 @@
   @media (min-width: $desktop-width) {
     width: 1440px;
     min-height: 580px;
+    margin: auto;
+    padding: 0;
   }
 }
 
-
-.program__wrapper {
-  position: relative;
-}
-
-.program__wrapper::before {
+.program::before {
   content: "";
   position: absolute;
   top: 0;
@@ -60,8 +58,8 @@
 
   @media (min-width: $desktop-width) {
     width: 416px;
-    margin-left: 190px;
-    margin-top: 65px;
+    margin: 0;
+    padding: 110px 0 0 190px
   }
 }
 
@@ -100,7 +98,7 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 143px;
+    top: 0;
     left: 557px;
     margin: 0;
     z-index: -1;
