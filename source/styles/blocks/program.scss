@@ -1,5 +1,6 @@
 .program {
   position: relative;
+
   @media (max-width: 767px) {
     width: 320px;
     margin: auto;
@@ -59,7 +60,7 @@
   @media (min-width: $desktop-width) {
     width: 416px;
     margin: 0;
-    padding: 110px 0 0 190px
+    padding: 110px 0 0 190px;
   }
 }
 
