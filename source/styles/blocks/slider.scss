@@ -23,6 +23,7 @@
 .slider__picture--after {
   position: relative;
   background-color: #eaeaea;
+  height: 256px;
 
   @media (min-width: $tablet-width) {
     background: linear-gradient(to bottom, #ffffff 145px, #eaeaea 145px);
