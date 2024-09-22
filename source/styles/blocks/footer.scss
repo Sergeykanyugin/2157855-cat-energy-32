@@ -175,7 +175,7 @@
   line-height: 20px;
   color: #444444;
 
-  @media (min-width: $tablet-width) and (max-width: $tablet-width-max) {
+  @media (min-width: $tablet-width) {
     padding-left: 5px;
   }
 }
