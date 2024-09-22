@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    margin: 25px auto 0;
+    margin: 0 auto;
     min-height: 50px;
     width: 708px;
   }
@@ -27,6 +27,10 @@
   align-items: center;
   margin: 13px 0 15px;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 25px 0 0;
+  }
 }
 
 .header__wrapper::before {

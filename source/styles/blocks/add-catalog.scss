@@ -9,9 +9,9 @@
   margin: auto;
 
   @media (min-width: $tablet-width) {
-    padding: 0 0 45px;
+    padding: 0;
     width: 708px;
-    gap: 30px;
+    gap: 31px;
     margin: auto;
   }
 
@@ -70,6 +70,7 @@
 
   @media (min-width: $tablet-width) {
     background-size: 200px 211px;
+    margin-top: 4px;
     width: 200px;
     height: 210px;
   }
@@ -165,6 +166,7 @@
     font-size: 20px;
     line-height: 1.5em;
     border: none;
+    padding-top: 28px;
   }
 
   @media (min-width: $tablet-width) and (max-width: $tablet-width-max) {
