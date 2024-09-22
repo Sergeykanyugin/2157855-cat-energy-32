@@ -96,6 +96,11 @@
     padding-top: 39px;
     padding-right: 4px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 72px;
+    padding-right: 1px;
+  }
 }
 
 .nav--opened .nav__item {
@@ -154,6 +159,8 @@
 
   @media (min-width: $desktop-width) {
     color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 

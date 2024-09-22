@@ -7,13 +7,13 @@
   padding-bottom: 49px;
 
   @media (min-width: $tablet-width) {
-    padding: 51px 0 47px;
+    padding: 51px 0 69px;
     width: 708px;
     margin: auto;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 51px 0 47px;
+    padding: 75px 0 0;
     width: 1220px;
     justify-content: start;
   }
@@ -62,8 +62,9 @@
 
   @media (min-width: $desktop-width) {
     flex-flow: row nowrap;
-    margin: 32px 0 0;
+    margin: 32px -4px 0 0;
     justify-content: space-between;
+    padding: 0;
   }
 }
 
@@ -88,6 +89,10 @@
 .work__item--1 {
   @media (min-width: $tablet-width) {
     width: 227px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 20px;
   }
 }
 

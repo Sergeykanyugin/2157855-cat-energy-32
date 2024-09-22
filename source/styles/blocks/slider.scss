@@ -53,6 +53,10 @@
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 
+  @media (min-width: $desktop-width) {
+    height: 512px;
+  }
+
   &:hover,
   &:focus-visible {
     background-color: #68b738;
