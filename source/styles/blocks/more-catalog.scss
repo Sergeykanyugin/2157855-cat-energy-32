@@ -19,7 +19,7 @@
 .more-catalog::before {
   content: "";
   position: absolute;
-  top: 10px;
+  top: 12px;
   right: 0;
   left: 0;
   z-index: -1;
@@ -38,7 +38,7 @@
 }
 
 .more-catalog__title {
-  margin: 14px 0 35px;
+  margin: 25px 0 36px;
   width: 266px;
   padding: 0;
   z-index: 1;
@@ -107,10 +107,10 @@
 
 .more-catalog__item {
   border-top: 1px solid #cdcdcd;
-  padding: 13px 0 18px;
+  padding: 12px 0 18px;
 
   @media (min-width: $tablet-width) {
-    padding: 27px 38px;
+    padding: 25px 38px 28px;
   }
 
   @media (min-width: $tablet-width) and (max-width: $tablet-width-max) {

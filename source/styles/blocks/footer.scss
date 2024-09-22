@@ -18,7 +18,7 @@
 .footer__address {
   display: flex;
   margin: auto;
-  width: 320px;
+  width: 280px;
   padding: 26px 20px;
 
   @media (min-width: $tablet-width) {
@@ -120,7 +120,7 @@
     padding: 0;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     margin-right: 416px;
   }
 }
@@ -130,6 +130,7 @@
   background-color: #f2f2f2;
 
   @media (min-width: $tablet-width) {
+    margin: 0;
     padding: 0 120px 0 0;
   }
 
@@ -151,7 +152,7 @@
     width: 132px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     margin-right: 376px;
   }
 }
