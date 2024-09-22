@@ -237,4 +237,15 @@
   @media (min-width: $desktop-width) {
     margin-top: 90px;
   }
+
+  &:hover,
+  &:focus-visible {
+    background-color: #ebebeb;
+    color: #444444;
+  }
+
+  &:active {
+    background-color: #ebebeb;
+    color: #222222;
+  }
 }
