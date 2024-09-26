@@ -1,1 +1,1 @@
-var e=document.querySelector(".nav"),s=document.querySelector(".nav__toggle");s.addEventListener("click",()=>{e.classList.contains("nav--opened")?(e.classList.remove("nav--closed"),e.classList.add("nav--opened")):(e.classList.add("nav--opened"),e.classList.remove("nav--closed"))});
+var e=document.querySelector(".nav"),s=document.querySelector(".nav__toggle");s.addEventListener("click",()=>{e.classList.contains("nav--closed")?(e.classList.remove("nav--closed"),e.classList.add("nav--opened")):(e.classList.add("nav--closed"),e.classList.remove("nav--opened"))});
